@@ -4531,6 +4531,9 @@ BOOL CConEmuMain::ShowWindow(int anCmdShow, DWORD nAnimationMS /*= (DWORD)-1*/)
 		}
 	}
 
+	// Disable window animations
+	bUseApi = true;
+		
 	bool bOldShowMinimized = mb_InShowMinimized;
 	mb_InShowMinimized = (anCmdShow == SW_SHOWMINIMIZED) || (anCmdShow == SW_SHOWMINNOACTIVE);
 
