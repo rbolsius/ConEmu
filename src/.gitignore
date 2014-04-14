@@ -10,7 +10,10 @@ CE2-preview.sln
 compile.txt
 *.opensdf
 _VCBUILD/
+Debug_C/
+Release/
 Test/
+ipch/
 
 *.exe
 *.map
